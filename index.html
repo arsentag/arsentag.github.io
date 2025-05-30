@@ -8,24 +8,25 @@
   <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body class="scroll-smooth bg-gray-50 text-gray-800 font-sans">
-<!-- STICKY NAVBAR -->
-<header class="sticky top-0 bg-white shadow z-50">
-  <nav class="max-w-4xl mx-auto flex justify-between items-center px-4 py-3">
-    <div class="text-xl font-bold text-blue-700">Arsen Tagibekov</div>
-    <div class="hidden sm:flex gap-4 text-sm font-medium">
-      <a href="#about" class="text-gray-600 hover:text-blue-600">About</a>
-      <a href="#skills" class="text-gray-600 hover:text-blue-600">Skills</a>
-      <a href="#education" class="text-gray-600 hover:text-blue-600">Education</a>
-      <a href="#projects" class="text-gray-600 hover:text-blue-600">Projects</a>
-      <a href="#certifications" class="text-gray-600 hover:text-blue-600">Certifications</a>
-      <a href="#contact" class="text-gray-600 hover:text-blue-600">Contact</a>
-    </div>
-  </nav>
-</header>
 
-<div class="flex justify-center mb-6">
-  <img src="assets/profilephoto.png" alt="Arsen Tagibekov" class="w-36 h-36 rounded-full object-cover shadow-lg mb-4">
-</div>
+<!-- LEFT SIDEBAR -->
+<aside class="w-64 h-screen fixed top-0 left-0 bg-white shadow-lg p-6 z-50">
+  <div class="flex justify-center mb-6">
+    <img src="assets/profilephoto.png" alt="Arsen Tagibekov" class="w-36 h-36 rounded-full object-cover shadow-lg mb-4">
+  </div>
+  <div class="text-xl font-bold text-blue-700 mb-4">Arsen Tagibekov</div>
+  <nav class="flex flex-col gap-3 text-sm font-medium">
+    <a href="#about" class="text-gray-600 hover:text-blue-600">About</a>
+    <a href="#skills" class="text-gray-600 hover:text-blue-600">Skills</a>
+    <a href="#education" class="text-gray-600 hover:text-blue-600">Education</a>
+    <a href="#projects" class="text-gray-600 hover:text-blue-600">Projects</a>
+    <a href="#certifications" class="text-gray-600 hover:text-blue-600">Certifications</a>
+    <a href="#contact" class="text-gray-600 hover:text-blue-600">Contact</a>
+  </nav>
+</aside>
+
+<!-- MAIN CONTENT -->
+<main class="ml-64 w-full">
 
   <!-- HERO SECTION -->
 <section id="about" class="max-w-4xl mx-auto px-4 pt-16 pb-12 text-center">
@@ -222,5 +223,9 @@
     © 2025 Arsen Tagibekov. All rights reserved.
   </footer>
 
+</body>
+</html>
+
+</main>
 </body>
 </html>
